@@ -78,7 +78,7 @@ jobs:
       with:
         context: .                                # 构建上下文：当前目录（包含所有项目文件）
         file: ./DockerFile                        # Dockerfile 的路径
-        tags: erthorpabar/fastapi-server:latest   # 镜像标签：用户名/镜像名:版本
+        tags: 1519202717/fastapi-server:latest    # 镜像标签：用户名/镜像名:版本 【需要与github中登陆的用户名一致】
         push: true                                # 构建后自动推送到 Docker Hub
     
     # 5 输出镜像摘要信息
