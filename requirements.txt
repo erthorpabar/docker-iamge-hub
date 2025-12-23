@@ -4,3 +4,4 @@ uvicorn
 
 # 测试
 pytest
+httpx
