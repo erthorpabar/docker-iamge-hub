@@ -6,6 +6,6 @@ client = TestClient(app)
 def test_aaa():
     response = client.get("/aaa")
     assert response.status_code == 200
-    assert response.json() == {"message": "这是GET接口"}
+    assert response.json() == {"message": "this is aaa"}
 
 

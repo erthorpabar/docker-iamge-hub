@@ -11,7 +11,7 @@ app = FastAPI()
 # ——————————————get——————————————
 @app.get("/aaa")
 async def root():
-    return {"message": "这是GET接口"}
+    return {"message": "this is aaa"}
 
 
 # ——————————————启动服务——————————————
